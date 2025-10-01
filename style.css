@@ -2,7 +2,24 @@ body{
     background:rgb(244, 192, 246);
     color:floralwhite
 }
+
+/* select by TAG type*/
+p{
+    color: steelblue
+}
+/* Select by ID name (unique) */
+#asiya {
+    background: lightgray;
+}
+/* select by CLASS name (shared styles) */
+.uniform {
+    color: darkmagenta;
+}
 h1{
-    color:lightpink;
-    background: whitesmoke
+    color: hotpink;
+    font-weight: 700;
+    font-style: italic; 
+    font-size: 40px;
+    text-align: center; 
+    font-family: 'Trebuchet MS';
 }
